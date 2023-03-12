@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Northwell';
+    src: url('Northwell.eot');
+    src: url('Northwell.eot?#iefix') format('embedded-opentype'),
+        url('Northwell.woff2') format('woff2'),
+        url('Northwell.woff') format('woff'),
+        url('Northwell.ttf') format('truetype'),
+        url('Northwell.svg#Northwell') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,147 @@
+
+<!doctype html>
+<html lang="en" class="h-100">
+<head>
+    <?php require_once('includes/head.php'); ?>
+    <link href="css/pc-keyboard.css" rel="stylesheet">
+  </head>
+  <body class="text-center text-white bg-dark">
+    
+    <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+          <a href="index.php" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-decoration-none logo">
+            KEYCUTS
+          </a>
+    
+          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="index.php" class="nav-link px-3 link-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="apple-icon" role="img" width="18" height="22.15" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 315"><path d="M213.803 167.03c.442 47.58 41.74 63.413 42.197 63.615c-.35 1.116-6.599 22.563-21.757 44.716c-13.104 19.153-26.705 38.235-48.13 38.63c-21.05.388-27.82-12.483-51.888-12.483c-24.061 0-31.582 12.088-51.51 12.871c-20.68.783-36.428-20.71-49.64-39.793c-27-39.033-47.633-110.3-19.928-158.406c13.763-23.89 38.36-39.017 65.056-39.405c20.307-.387 39.475 13.662 51.889 13.662c12.406 0 35.699-16.895 60.186-14.414c10.25.427 39.026 4.14 57.503 31.186c-1.49.923-34.335 20.044-33.978 59.822M174.24 50.199c10.98-13.29 18.369-31.79 16.353-50.199c-15.826.636-34.962 10.546-46.314 23.828c-10.173 11.763-19.082 30.589-16.678 48.633c17.64 1.365 35.66-8.964 46.64-22.262"/></svg>
+                Mac</a></li>
+            <li><a href="#" class="nav-link px-3 link-light">
+                <svg width="18" viewBox="0 0 480 480" class="windows-icon">
+                <path d="M0.176,224L0.001,67.963l192-26.072V224H0.176z M224.001,37.241L479.937,0v224H224.001V37.241z M479.999,256l-0.062,224
+                  l-255.936-36.008V256H479.999z M192.001,439.918L0.157,413.621L0.147,256h191.854V439.918z"></path>
+              </svg>
+               PC</a></li>
+          </ul>
+    
+        </header>
+      </div>
+
+
+  <main>
+   
+       
+      <div class="base" id="capture">
+        <div class="key f-key">ESC</div>
+        <div class="space f-key"></div>
+        <div class="key f-key">F1</div>
+        <div class="key f-key">F2</div>
+        <div class="key f-key">F3</div>
+        <div class="key f-key">F4</div>
+        <div class="space f-key"></div>
+        <div class="key f-key">F5</div>
+        <div class="key f-key">F6</div>
+        <div class="key f-key">F7</div>
+        <div class="key f-key">F8</div>
+        <div class="space f-key"></div>
+        <div class="key f-key">F9</div>
+        <div class="key f-key">F10</div>
+        <div class="key f-key">F11</div>
+        <div class="key f-key">F12</div>
+        <div class="space f-key"></div>
+        <div class="key">~</div>
+        <div class="key">1</div>
+        <div class="key">2</div>
+        <div class="key">3</div>
+        <div class="key">4</div>
+        <div class="key">5</div>
+        <div class="key">6</div>
+        <div class="key">7</div>
+        <div class="key">8</div>
+        <div class="key">9</div>
+        <div class="key">0</div>
+        <div class="key">-</div>
+        <div class="key">+</div>
+        <div class="key delete">Delete</div>
+        <div class="key tab">Tab</div>
+        <div class="key">Q</div>
+        <div class="key" id="w" tabindex="1">W</div>
+        <div class="key">E</div>
+        <div class="key">R</div>
+        <div class="key">T</div>
+        <div class="key">Y</div>
+        <div class="key">U</div>
+        <div class="key">I</div>
+        <div class="key">O</div>
+        <div class="key">P</div>
+        <div class="key">[</div>
+        <div class="key">]</div>
+        <div class="key backslash">\</div>
+        <div class="key capslock">CapsLock</div>
+        <div class="key" id="a" tabindex="2">A</div>
+        <div class="key" id="s" tabindex="3">S</div>
+        <div class="key" id="d" tabindex="4">D</div>
+        <div class="key">F</div>
+        <div class="key">G</div>
+        <div class="key">H</div>
+        <div class="key">J</div>
+        <div class="key">K</div>
+        <div class="key">L</div>
+        <div class="key">;</div>
+        <div class="key">'</div>
+        <div class="key return">Enter</div>
+        <div class="key leftshift">Shift</div>
+        <div class="key">Z</div>
+        <div class="key">X</div>
+        <div class="key">C</div>
+        <div class="key">V</div>
+        <div class="key">B</div>
+        <div class="key">N</div>
+        <div class="key">M</div>
+        <div class="key">,</div>
+        <div class="key">.</div>
+        <div class="key">/</div>
+        <div class="key rightshift">Shift</div>
+        <div class="key leftctrl">Ctrl</div>
+        <div class="key command">
+          <svg width="24" viewBox="0 0 480 480">
+            <path d="M0.176,224L0.001,67.963l192-26.072V224H0.176z M224.001,37.241L479.937,0v224H224.001V37.241z M479.999,256l-0.062,224
+              l-255.936-36.008V256H479.999z M192.001,439.918L0.157,413.621L0.147,256h191.854V439.918z"/>
+          </svg>    
+        </div>
+        <div class="key fn">Fn</div>
+        <div class="key">Alt</div>
+        <div class="key space" tabindex="5">Space</div>
+        <div class="key gr" tabindex="6">Alt</div>
+        <div class="key command">
+          <svg viewBox="0 0 470.586 470.586" width="20">
+            <path d="M327.081,0H90.234C74.331,0,61.381,12.959,61.381,28.859v412.863c0,15.924,12.95,28.863,28.853,28.863H380.35
+              c15.917,0,28.855-12.939,28.855-28.863V89.234L327.081,0z M333.891,43.184l35.996,39.121h-35.996V43.184z M384.972,441.723
+              c0,2.542-2.081,4.629-4.635,4.629H90.234c-2.55,0-4.619-2.087-4.619-4.629V28.859c0-2.548,2.069-4.613,4.619-4.613h219.411v70.181
+              c0,6.682,5.443,12.099,12.129,12.099h63.198V441.723z M128.364,128.89H334.15c5.013,0,9.079,4.066,9.079,9.079
+              c0,5.013-4.066,9.079-9.079,9.079H128.364c-5.012,0-9.079-4.066-9.079-9.079C119.285,132.957,123.352,128.89,128.364,128.89z
+               M343.229,198.98c0,5.012-4.066,9.079-9.079,9.079H128.364c-5.012,0-9.079-4.066-9.079-9.079s4.067-9.079,9.079-9.079H334.15
+              C339.163,189.901,343.229,193.968,343.229,198.98z M343.229,257.993c0,5.013-4.066,9.079-9.079,9.079H128.364
+              c-5.012,0-9.079-4.066-9.079-9.079s4.067-9.079,9.079-9.079H334.15C339.163,248.914,343.229,252.98,343.229,257.993z
+               M343.229,318.011c0,5.013-4.066,9.079-9.079,9.079H128.364c-5.012,0-9.079-4.066-9.079-9.079s4.067-9.079,9.079-9.079H334.15
+              C339.163,308.932,343.229,312.998,343.229,318.011z"/>
+          </svg>    
+        </div>
+        <div class="key ctrl-r">Ctrl</div>
+        <!-- <div class="stand"></div> -->
+      </div>
+
+
+
+
+  </main>
+
+  <div class="d-inline-block tooltip-holder" tabindex="0" data-bs-toggle="tooltip" title="Select keys to download">
+    <a href="#" class="capture-btn btn btn-lg btn-primary disabled" download="pc-keyboard-shortcut.png">Download</a>
+  </div>
+
+  <?php require_once('includes/foot.php'); ?>
+    
+  </body>
+</html>

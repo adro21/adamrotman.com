@@ -1,0 +1,1117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/prism.css" />
+    <link rel="stylesheet" href="assets/css/libs.bundle.css" />
+    <link rel="stylesheet" href="assets/css/theme.bundle.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <title>Dubious</title>
+  </head>
+  <body>
+
+    <!-- MODALS -->
+    <!-- Example -->
+    <div class="modal fade" id="email-example" tabindex="-1" role="dialog" aria-labelledby="modalExampleTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+
+            <div class="text-muted">
+              <p class="mb-0"><strong>From:</strong> hello@yourcompany.com</p>
+              <p class="mb-0"><strong>Subject:</strong> We noticed a new login on your account</p>
+            </div>
+            <!-- Close -->
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+    
+            <iframe src="emails/outline/index.html" title="Login Detection Email" width="100%" height="100%"></iframe>    
+    
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-light navbar-expand-lg" style="z-index: 2;">
+      <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand mt-n1" href="index.html">
+        <img src="assets/img/brand.svg" class="navbar-brand-img" alt="...">
+      </a>
+
+       <!-- Toggler -->
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+  
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fe fe-x"></i>
+        </button>
+
+        <!-- Navigation -->
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a href="how-it-works.html" class="nav-link" id="navbarLandings">
+              How it Works
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="pricing.html" class="nav-link" id="navbarPages">
+              Pricing
+            </a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a href="documentation.html" class="nav-link" id="navbarDocumentation">
+              Docs
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="access/login.html" class="nav-link">Log in</a>
+          </li>
+          <li><a class="navbar-btn btn btn-sm btn-primary lift ms-auto" href="access/signup.html" target="_blank">
+            Sign up for free
+          </a></li>
+        </ul>
+
+      </div>
+    </div>
+    </nav>
+
+
+    <!-- WELCOME -->
+    <section class="pt-4 pt-md-11" style="display:none;">
+
+       <!-- Shape -->
+       <div class="shape shape-fluid-x shape-blur-2 svg-shim text-light">
+        <svg viewBox="0 0 1313 768" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M442.794 768c163.088 0 305.568-88.227 382.317-219.556l.183.556s.249-.749.762-2.181a440.362 440.362 0 0033.192-71.389C901.996 397.81 989.306 277.09 1144.29 206l-.92-.693C1230.34 171.296 1295.63 94.049 1312.83 0H1.294v295.514c-.663 9.909-1 19.908-1 29.986 0 244.386 198.114 442.5 442.5 442.5z" fill="currentColor"/></svg>      </div>
+
+
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-5 col-lg-6 order-md-2">
+
+            <pre><code class="language-css">curl --header "X-API-Key: api-key-goes-here" --data "userKey=abcd&email=value&ip=value&ua=user-agent" https://getstencil.com/dubious/adam</code></pre>
+
+          </div>
+          <div class="col-12 col-md-7 col-lg-6 order-md-1">
+
+            <!-- Heading -->
+            <h1 class="display-5 text-center text-md-start">
+             <span class="text-primary">Suspicious login detection.</span><br>
+              ...so you don't have to.
+            </h1>
+
+            <!-- Text -->
+            <p class="lead text-center text-md-start text-muted mb-6 mb-lg-8">
+              Automated suspicious login detection with email notifications in 4 lines of code.
+            </p>
+
+            <!-- Buttons -->
+            <div class="text-center text-md-start">
+              <a href="access/signup.html" class="btn btn-primary shadow lift me-1">
+                Sign up for free <i class="fe fe-arrow-right d-none d-md-inline ms-3"></i>
+              </a>
+              <a href="$" class="btn btn-primary-soft lift">
+                Documentation
+              </a>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+
+
+
+
+    <!-- WELCOME -->
+    <section class="position-relative pt-12 pt-md-14 mt-n11">
+
+      <!-- Shape -->
+      <div class="shape shape-fluid-x shape-blur-2 svg-shim text-light">
+        <svg viewBox="0 0 1313 768" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M442.794 768c163.088 0 305.568-88.227 382.317-219.556l.183.556s.249-.749.762-2.181a440.362 440.362 0 0033.192-71.389C901.996 397.81 989.306 277.09 1144.29 206l-.92-.693C1230.34 171.296 1295.63 94.049 1312.83 0H1.294v295.514c-.663 9.909-1 19.908-1 29.986 0 244.386 198.114 442.5 442.5 442.5z" fill="currentColor"/></svg>      </div>
+
+      <!-- Content -->
+      <div class="container">
+        <div class="row align-items-center text-center text-md-start">
+          <div class="col-12 col-md-6">
+
+            <!-- Image -->
+            <img src="assets/img/illustrations/illustration-3.png" alt="..." class="img-fluid mw-130 float-end mb-6 mb-md-0 invisible">
+
+          </div>
+          <div class="col-12 col-md-6">
+
+            <!-- Heading -->
+            <h1 class="display-5 fw-bold">
+              <div>Suspicious login detection</div>
+              <div><span>...so you don't have to.</span></div>
+            </h1>
+
+            <!-- Text -->
+            <p class="fs-lg text-muted mb-6">
+               Automated suspicious login detection with email notifications in 4 lines of code. 
+            </p>
+
+             <!-- Buttons -->
+             <div class="text-center text-md-start">
+              <a href="access/signup.html" class="btn btn-primary shadow lift me-1">
+                Sign up for free <i class="fe fe-arrow-right d-none d-md-inline ms-3"></i>
+              </a>
+              <a href="#" class="btn btn-primary-soft lift mt-md-3 mt-lg-0">
+                Documentation
+              </a>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+    </section>
+
+    <!-- HUB -->
+    <section class="pt-8 pb-13 pt-md-13">
+      <div class="container">
+        <div class="row mb-10">
+          <div class="col-12 col-md-4 text-center text-md-start">
+
+            <!-- Icon -->
+            <div class="icon text-primary mb-3">
+              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M17.272 8.685a1 1 0 111.456-1.37l4 4.25a1 1 0 010 1.37l-4 4.25a1 1 0 01-1.456-1.37l3.355-3.565-3.355-3.565zm-10.544 0L3.373 12.25l3.355 3.565a1 1 0 01-1.456 1.37l-4-4.25a1 1 0 010-1.37l4-4.25a1 1 0 011.456 1.37z" fill="#335EEA"/><rect fill="#335EEA" opacity=".3" transform="rotate(15 12 12)" x="11" y="4" width="2" height="16" rx="1"/></g></svg>
+            </div>
+
+            <!-- Heading -->
+            <h3>
+              Built for developers
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-6 mb-md-0">
+              Dubious is built to make developers lives easier. Preset sensitity intervals, simple integration and prebuilt notification emails.  
+            </p>
+
+          </div>
+          <div class="col-12 col-md-4 text-center text-md-start">
+
+            <!-- Icon -->
+            <div class="icon text-primary mb-3">
+              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M4 4l7.631-1.43a2 2 0 01.738 0L20 4v9.283a8.51 8.51 0 01-4 7.217l-3.47 2.169a1 1 0 01-1.06 0L8 20.5a8.51 8.51 0 01-4-7.217V4z" fill="#335EEA" opacity=".3"/><path d="M14.5 11a1 1 0 011 1v3a1 1 0 01-1 1h-5a1 1 0 01-1-1v-3a1 1 0 011-1v-.5a2.5 2.5 0 115 0v.5zM12 9a1.5 1.5 0 00-1.5 1.5v.5h3v-.5A1.5 1.5 0 0012 9z" fill="#335EEA"/></g></svg>          
+            </div>
+
+            <!-- Heading -->
+            <h3>
+              Designed for security
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-6 mb-md-0">
+              A security API through and through. We guarantee this is the easiest way to add a layer of security to your application, website or service.
+            </p>
+
+          </div>
+          <div class="col-12 col-md-4 text-center text-md-start">
+
+            <!-- Icon -->
+            <div class="icon text-primary mb-3">
+              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M7 3h10a4 4 0 110 8H7a4 4 0 110-8zm0 6a2 2 0 100-4 2 2 0 000 4z" fill="#335EEA"/><path d="M7 13h10a4 4 0 110 8H7a4 4 0 110-8zm10 6a2 2 0 100-4 2 2 0 000 4z" fill="#335EEA" opacity=".3"/></g></svg>            </div>
+
+            <!-- Heading -->
+            <h3>
+              Sensitivity Controls
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-0">
+              Get refinded control of when your users get notified of suspicious logins.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row mb-10">
+          <div class="col-12 col-md-4 text-center text-md-start">
+
+            <!-- Icon -->
+            <div class="icon text-primary mb-3">
+              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M5 10.5C5 6 8 3 12.5 3S20 6.75 20 10.5c0 2.333-2.176 5.536-6.529 9.61a1.5 1.5 0 01-1.994.05C7.16 16.507 5 13.287 5 10.5zm7.5 1.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5z" fill="#335EEA"/></g></svg>            </div>
+
+            <!-- Heading -->
+            <h3>
+              Maps Integration
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-6 mb-md-0">
+              Beautiful maps built into email notifications so your users can quickly visualize if their account has been compromised.
+            </p>
+
+          </div>
+          <div class="col-12 col-md-4 text-center text-md-start">
+
+            <!-- Icon -->
+            <div class="icon text-primary mb-3">
+              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M7 11h8a2 2 0 002-2V8h2v1a4 4 0 01-4 4H7v2a1 1 0 01-2 0V9a1 1 0 112 0v2z" fill="#335EEA" opacity=".3"/><path d="M6 21a2 2 0 100-4 2 2 0 000 4zm0 2a4 4 0 110-8 4 4 0 010 8zM18 7a2 2 0 100-4 2 2 0 000 4zm0 2a4 4 0 110-8 4 4 0 010 8zM6 7a2 2 0 100-4 2 2 0 000 4zm0 2a4 4 0 110-8 4 4 0 010 8z" fill="#335EEA"/></g></svg>         </div>
+
+            <!-- Heading -->
+            <h3>
+              Custom Rules
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-6 mb-md-0">
+              Create special rules so your team members can get notified whenever a login attempt happens on their account.
+            </p>
+
+          </div>
+          <div class="col-12 col-md-4 text-center text-md-start">
+
+            <!-- Icon -->
+            <div class="icon text-primary mb-3">
+              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M8 3v.5A1.5 1.5 0 009.5 5h5A1.5 1.5 0 0016 3.5V3h2a2 2 0 012 2v16a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2h2z" fill="#335EEA" opacity=".3"/><path d="M10.875 15.75a.946.946 0 01-.67-.287l-1.918-1.917a.926.926 0 010-1.342c.384-.383 1.007-.383 1.342 0l1.246 1.246 3.162-3.162a.926.926 0 011.342 0 .926.926 0 010 1.341l-3.833 3.834a.946.946 0 01-.671.287zM11 2a1 1 0 012 0h1.5a.5.5 0 01.5.5v1a.5.5 0 01-.5.5h-5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11z" fill="#335EEA"/></g></svg>          </div>
+
+            <!-- Heading -->
+            <h3>
+              Detailed Logs
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-0">
+              Keep track of all suspicious logins for your users including all the details you'll want to track.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE -->
+    <div class="position-relative mt-n8">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-gray-100">
+        <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>      </div>
+    </div>
+
+    
+
+    <!-- ABOUT -->
+    <section class="pt-8 pt-md-14 bg-gradient-light-white">
+      <div class="container">
+        <div class="row align-items-center justify-content-between mb-8 mb-md-11">
+          <div class="col-12 col-md-6 order-md-2">
+
+            <!-- Heading -->
+            <h2>
+              The fastest way to an extra layer <br>
+              <span class="text-success">of security for <span data-typed='{"strings": ["developers.", "product managers.", "founders."]}'></span></span>
+            </h2>
+
+            <!-- Text -->
+            <p class="fs-lg text-muted mb-6">
+              Using Dubious for suspicious login detection means you don't have to build it in-house. We'll detect suspicious login attempts and notify your users via email.
+              <!--Our approach takes the guess work out of notifying your users when their account might be compromised.-->
+            </p>
+
+            <!-- List -->
+            <div class="row">
+              <div class="col-12 col-lg-6">
+
+                <!-- Item -->
+                <div class="d-flex">
+
+                  <!-- Check -->
+                  <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+
+                  <!-- Text -->
+                  <p class="text-success">
+                    Setup in minutes <br/> (Single endpoint)
+                  </p>
+
+                </div>
+
+                <!-- Item -->
+                <div class="d-flex">
+
+                  <!-- Check -->
+                  <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+
+                  <p class="text-success mb-lg-0">
+                    Premium support
+                  </p>
+
+                </div>
+
+              </div>
+              <div class="col-12 col-lg-6 mb-6 mb-md-0">
+
+                <!-- Item -->
+                <div class="d-flex">
+
+                  <!-- Check -->
+                  <span class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </span>
+
+                  <!-- Text -->
+                  <p class="text-success">
+                    Minimalist email notifications
+                  </p>
+
+                </div>
+
+                <!-- Item -->
+                <div class="d-flex">
+
+                  <!-- Check -->
+                  <div class="badge badge-rounded-circle bg-success-soft me-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+
+                  <!-- Text -->
+                  <p class="text-success mb-0">
+                    No PII Stored
+                  </p>
+
+                </div>
+
+              </div>
+            </div> <!-- / .row -->
+
+             <!-- Text -->
+             <p class="fs-lg text-muted mb-6 mt-6">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#email-example"><span class="fe fe-eye"></span> &nbsp;View a real example email</a>
+              <!--Our approach takes the guess work out of notifying your users when their account might be compromised.-->
+            </p>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-5 order-md-1">
+
+            <!-- Card -->
+            <div class="card shadow-light-lg lift lift-lg">
+
+              <!-- Image -->
+              <img src="assets/img/photos/map-example.png" alt="..." class="card-img-top">
+
+              <!-- Shape -->
+              <div class="position-relative">
+                <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                  <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>                </div>
+              </div>
+
+              <!-- Body -->
+              <div class="card-body">
+
+                <p class="fs-4 mb-6"><strong>Did you log in from a new device?</strong></p>
+
+                <!-- Device -->
+                <div class="d-flex">
+                  <p class="w-25 me-4"><strong>Device</strong></p>
+                  <!-- Badge -->
+                  <div class="me-2 mt-n1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#43BA96" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <rect x="7" y="4" width="10" height="16" rx="1" />
+                      <line x1="11" y1="5" x2="13" y2="5" />
+                      <line x1="12" y1="17" x2="12" y2="17.01" />
+                    </svg>
+                  </div>
+                  <!-- Text -->
+                  <p>
+                    Apple iPhone
+                  </p>
+                </div>
+
+                <!-- Near -->
+                <div class="d-flex">
+                  <p class="w-25 me-4"><strong>Near</strong></p>
+                  <!-- Badge -->
+                  <div class="me-2 mt-n1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#43BA96" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <line x1="18" y1="6" x2="18" y2="6.01" />
+                      <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+                      <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+                      <line x1="9" y1="4" x2="9" y2="17" />
+                      <line x1="15" y1="15" x2="15" y2="20" />
+                    </svg>
+                  </div>
+                  <!-- Text -->
+                  <p>
+                    Toronto, Ontario
+                  </p>
+                </div>
+
+                <!-- When -->
+                <div class="d-flex">
+                  <p class="w-25 me-4"><strong>When</strong></p>
+                  <!-- Badge -->
+                  <div class="me-2 mt-n1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-event" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#43BA96" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <rect x="4" y="5" width="16" height="16" rx="2" />
+                      <line x1="16" y1="3" x2="16" y2="7" />
+                      <line x1="8" y1="3" x2="8" y2="7" />
+                      <line x1="4" y1="11" x2="20" y2="11" />
+                      <rect x="8" y="15" width="2" height="2" />
+                    </svg>
+                  </div>
+                  <!-- Text -->
+                  <p>
+                    Jan 5, 2021
+                  </p>
+                </div>
+
+
+                <!-- IP Address -->
+                <div class="d-flex">
+                  <p class="w-25 me-4"><strong>IP Address</strong></p>
+                  <!-- Badge -->
+                  <div class="me-2 mt-n1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-world" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#43BA96" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <circle cx="12" cy="12" r="9" />
+                      <line x1="3.6" y1="9" x2="20.4" y2="9" />
+                      <line x1="3.6" y1="15" x2="20.4" y2="15" />
+                      <path d="M11.5 3a17 17 0 0 0 0 18" />
+                      <path d="M12.5 3a17 17 0 0 1 0 18" />
+                    </svg>
+                  </div>
+                  <!-- Text -->
+                  <p>
+                    254.255.678.443
+                  </p>
+                </div>
+
+                <!-- Data Example (No Flex) -->
+                <!--<p><strong>Device</strong> <img src="assets/img/icons/location/device-mobile@2x.png" width="18" /> Apple iPhone (Smartphone)</p>
+                
+                <p><strong>Near</strong> <img src="assets/img/icons/location/map-pin@2x.png" width="18" /> Toronto, Ontario</p>
+
+                <p><strong>When</strong> <img src="assets/img/icons/location/clock@2x.png" width="18" /> Dec 22, 2020</p>
+
+                <p><strong>IP Address</strong> <img src="assets/img/icons/location/world@2x.png" width="18" /> 232.456.335.332</p>-->
+
+              </div>
+
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+
+
+
+
+    <section class="pt-8 pt-md-13">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+
+            <!-- Heading -->
+            <h2>
+              <span class="text-primary">A single endpoint</span> and just a few lines of code.
+            </h2>
+
+            <!-- Text -->
+            <p class="fs-lg text-muted mb-7 mb-md-6">
+              Get up and running in minutes instead of weeks. Paste in a few lines of code and you're good to go.
+            </p>
+
+          </div>
+        </div><!-- / .row -->
+
+        <div class="row justify-content-center">    
+              <div class="col-12 col-md-10 col-lg-8 order-md-1">
+
+                <div class="card shadow-light-lg">
+                  <div class="row gx-0">
+
+                <!-- Body -->
+                <div class="card-body">
+
+                    <!-- Text -->
+                    <div class="py-2 py-mb-6">
+
+                      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="pills-node-tab" data-bs-toggle="pill" href="#pills-node" role="tab" aria-controls="pills-node" aria-selected="true">Node</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="pills-python-tab" data-bs-toggle="pill" href="#pills-python" role="tab" aria-controls="pills-python" aria-selected="false">Python</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="pills-php-tab" data-bs-toggle="pill" href="#pills-php" role="tab" aria-controls="pills-php" aria-selected="false">PHP</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="pills-ruby-tab" data-bs-toggle="pill" href="#pills-ruby" role="tab" aria-controls="pills-ruby" aria-selected="false">Ruby</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="pills-go-tab" data-bs-toggle="pill" href="#pills-go" role="tab" aria-controls="pills-go" aria-selected="false">Go</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="pills-java-tab" data-bs-toggle="pill" href="#pills-java" role="tab" aria-controls="pills-java" aria-selected="false">Java</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="pills-swift-tab" data-bs-toggle="pill" href="#pills-swift" role="tab" aria-controls="pills-swift" aria-selected="false">Swift</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-node" role="tabpanel" aria-labelledby="pills-node-tab">
+                          <pre><code class="language-css">curl --header "X-API-Key: api-key-goes-here" --data "userKey=abcd&email=value&ip=value&ua=user-agent" https://getstencil.com/dubious/adam</code></pre>
+                        </div>
+                        <div class="tab-pane fade" id="pills-python" role="tabpanel" aria-labelledby="pills-python-tab">
+                          <pre><code class="language-css">curl --header "X-API-Key: api-key-goes-here" --data "userKey=abcd&email=value&ip=value&ua=user-agent" https://getstencil.com/dubious/adam</code></pre>
+                        </div>
+                        <div class="tab-pane fade" id="pills-php" role="tabpanel" aria-labelledby="pills-php-tab">
+                          <pre><code class="language-css">curl --header "X-API-Key: api-key-goes-here" --data "userKey=abcd&email=value&ip=value&ua=user-agent" https://getstencil.com/dubious/adam</code></pre>
+                        </div>
+                        <div class="tab-pane fade" id="pills-ruby" role="tabpanel" aria-labelledby="pills-ruby-tab">
+                          <pre><code class="language-css">curl --header "X-API-Key: api-key-goes-here" --data "userKey=abcd&email=value&ip=value&ua=user-agent" https://getstencil.com/dubious/adam</code></pre>
+                        </div>
+                        <div class="tab-pane fade" id="pills-go" role="tabpanel" aria-labelledby="pills-go-tab">
+                          <pre><code class="language-css">curl --header "X-API-Key: api-key-goes-here" --data "userKey=abcd&email=value&ip=value&ua=user-agent" https://getstencil.com/dubious/adam</code></pre>
+                        </div>
+                        <div class="tab-pane fade" id="pills-java" role="tabpanel" aria-labelledby="pills-java-tab">
+                          <pre><code class="language-css">curl --header "X-API-Key: api-key-goes-here" --data "userKey=abcd&email=value&ip=value&ua=user-agent" https://getstencil.com/dubious/adam</code></pre>
+                        </div>
+                        <div class="tab-pane fade" id="pills-swift" role="tabpanel" aria-labelledby="pills-swift-tab">
+                          <pre><code class="language-css">curl --header "X-API-Key: api-key-goes-here" --data "userKey=abcd&email=value&ip=value&ua=user-agent" https://getstencil.com/dubious/adam</code></pre>
+                        </div>
+                      </div>
+
+                      <a href="#!" class="fw-bold text-decoration-none">
+                        View all integration options <i class="fe fe-arrow-right ms-3"></i>
+                      </a>
+                    </div>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>  
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE -->
+    <div class="position-relative mt-n8">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-gray-200">
+        <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>      </div>
+    </div>
+
+    <!-- STATS -->
+    <section class="pt-12 pt-md-13 bg-gray-200">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-5 col-lg-6 order-md-2">
+
+            <!-- Image -->
+            <img src="assets/img/illustrations/illustration-8.png" alt="..." class="img-fluid mb-6 mb-md-0">
+
+          </div>
+          <div class="col-12 col-md-7 col-lg-6 order-md-1">
+
+            <!-- Heading -->
+            <h2>
+              Stay focussed on what matters. <br>
+              <span class="text-primary">We'll handle the suspicious logins.</span>
+            </h2>
+
+            <!-- Text -->
+            <p class="fs-lg text-gray-700 mb-6">
+              Security issues are on the rise. Get peace of mind when it comes to suspicious logins and let us do all the detection for you, so you can focus on other things. 
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- PRICING -->
+    <section class="pt-9 pt-md-15 bg-gray-200">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+
+            <!-- Heading -->
+            <h1>
+              Usage based, simple pricing for all.
+            </h1>
+
+            <!-- Text -->
+            <p class="lead text-gray-700 mb-9">
+              Businesses need security now more than ever. Pick an option that makes the most sense for you.
+            </p>
+            
+          </div>
+        </div> <!-- / .row -->
+        <div class="row align-items-center gx-0">
+          <div class="col-12 col-md-6">
+
+            <!-- Card -->
+            <div class="card rounded-lg shadow-lg mb-6 mb-md-0" style="z-index: 1;" data-aos="fade-up">
+
+              <!-- Body -->
+              <div class="card-body py-6 py-md-8">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-xl-9">
+
+                    <!-- Badge -->
+                    <div class="text-center mb-5">
+                      <span class="badge rounded-pill bg-primary-soft">
+                        <span class="h6 fw-bold text-uppercase">Premium</span>
+                      </span>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="d-flex justify-content-center">
+                      <span class="h2 mb-0 mt-2">$</span>
+                      <span class="price display-2 mb-0" data-annual="39" data-monthly="49">49</span>
+                    </div>
+
+                    <!-- Text -->
+                    <p class="text-center text-muted mb-6 mb-md-8">
+                      per month
+                    </p>
+
+                    <!-- Features -->
+                    <div class="d-flex">
+
+                      <!-- Check -->
+                      <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <!-- Text -->
+                      <p>
+                        100,000 Requests /mo
+                      </p>
+
+                    </div>
+                    <div class="d-flex">
+
+                      <!-- Check -->
+                      <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <!-- Text -->
+                      <p>
+                        1,000 Suspicious Login Emails
+                      </p>
+
+                    </div>
+                    <div class="d-flex">
+
+                      <!-- Check -->
+                      <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <!-- Text -->
+                      <p>
+                        Custom Rules
+                      </p>
+
+                    </div>
+                    <div class="d-flex">
+
+                      <!-- Check -->
+                      <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <!-- Text -->
+                      <p>
+                        Location-Based Maps
+                      </p>
+
+                    </div>
+                    <div class="d-flex">
+
+                      <!-- Check -->
+                      <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <!-- Text -->
+                      <p>
+                        Detailed Logs
+                      </p>
+
+                    </div>
+                    <div class="d-flex">
+
+                      <!-- Check -->
+                      <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <!-- Text -->
+                      <p class="mb-0">
+                        Remove Branding
+                      </p>
+
+                    </div>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+
+              <!-- Button -->
+              <a href="access/signup.html" class="card-btn btn w-100 btn-lg btn-primary">
+                Try it free for 30 days
+              </a>
+
+            </div>
+
+          </div>
+          <div class="col-12 col-md-6 ms-md-n3">
+
+            <!-- Card -->
+            <div class="card rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="200">
+
+              <!-- Body -->
+              <div class="card-body py-6 py-md-8">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-xl-10">
+
+                    <!-- Badge -->
+                    <p class="text-center mb-8 mb-md-11">
+                      <span class="badge rounded-pill bg-primary-soft">
+                        <span class="h6 fw-bold text-uppercase">Always Free</span>
+                      </span>
+                    </p>
+
+                    <!-- Text -->
+                    <p class="lead text-center text-muted mb-0 mb-md-10">
+                      As long as you have less than 10,000 requests and send less than 500 email notifications per month, Dubious is free to use!
+                    </p>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+
+              <!-- Button -->
+              <a href="access/signup.html" class="card-btn btn w-100 btn-lg btn-light bg-gray-300 text-gray-700">
+                Get started for free
+              </a>
+
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE -->
+    <div class="position-relative mt-n14">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>      </div>
+    </div>
+
+    <!-- FAQ -->
+    <section class="pt-15 bg-dark">
+      <div class="container pt-8 pt-md-11">
+        <div class="row">
+          <div class="col-12 col-md-6">
+
+            <!-- Item -->
+            <div class="d-flex">
+
+              <!-- Badge -->
+              <div class="badge badge-lg badge-rounded-circle bg-success">
+                <span>?</span>
+              </div>
+
+              <div class="ms-5">
+
+                <!-- Heading -->
+                <h4 class="text-white">
+                  Will Dubious work with my server side language?
+                </h4>
+
+                <!-- Text -->
+                <p class="text-muted mb-6 mb-md-8">
+                  Absolutely. We support all major server side languages! <a href="#" class="text-white fw-bold">Check out the docs  <i class="fe fe-arrow-right"></i></a>
+                </p>
+
+              </div>
+
+            </div>
+
+            <!-- Item -->
+            <div class="d-flex">
+
+              <!-- Badge -->
+              <div class="badge badge-lg badge-rounded-circle bg-success">
+                <span>?</span>
+              </div>
+
+              <div class="ms-5">
+
+                <!-- Heading -->
+                <h4 class="text-white">
+                  Do you store personally identifiable information?
+                </h4>
+
+                <!-- Text -->
+                <p class="text-muted mb-6 mb-md-0">
+                  We don't store any of your users PII. For sending emails we use Postmark and this data is only stored there for 30 days.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-12 col-md-6">
+
+            <!-- Item -->
+            <div class="d-flex">
+
+              <!-- Badge -->
+              <div class="badge badge-lg badge-rounded-circle bg-success">
+                <span>?</span>
+              </div>
+
+              <div class="ms-5">
+
+                <!-- Heading -->
+                <h4 class="text-white">
+                  Is there a money back guarantee?
+                </h4>
+
+                <!-- Text -->
+                <p class="text-muted mb-6 mb-md-8">
+                  Yup! We offer a 14-day money back guarantee on any paid plan.
+                </p>
+
+              </div>
+
+            </div>
+
+            <!-- Item -->
+            <div class="d-flex">
+
+              <!-- Badge -->
+              <div class="badge badge-lg badge-rounded-circle bg-success">
+                <span>?</span>
+              </div>
+
+              <div class="ms-5">
+
+                <!-- Heading -->
+                <h4 class="text-white">
+                  Can I use my own email templates?
+                </h4>
+
+                <!-- Text -->
+                <p class="text-muted mb-6 mb-md-0">
+                  At this time, we offer what we believe is the perfect email design for suspicious email notifications. It's been thoroughly tested and works in all modern email clients.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- CTA -->
+    <section class="py-8 py-md-11 bg-dark mt-n5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+
+            <!-- Badge -->
+            <span class="badge rounded-pill bg-gray-700-soft mb-4">
+              <span class="h6 fw-bold text-uppercase">Get started</span>
+            </span>
+
+            <!-- Heading -->
+            <h1 class="display-4 text-white">
+              Get Dubious, protect your users.
+            </h1>
+
+            <!-- Text -->
+            <p class="fs-lg text-muted mb-6 mb-md-8">
+              Don't build suspicous login detection from scratch. Dubious is faster, secure and we'll worry about all the mundane details.
+            </p>
+
+            <!-- Button -->
+            <a href="#" target="_blank" class="btn btn-success lift">
+              Get started for free <i class="fe fe-arrow-right"></i>
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-gray-200">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="py-8 py-md-11 bg-gray-200">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3">
+    
+            <!-- Brand -->
+            <img src="assets/img/brand.svg" alt="..." class="footer-brand img-fluid mb-2">
+    
+            <!-- Text -->
+            <p class="text-gray-700 mb-2">
+              An extra layer of security.
+            </p>
+    
+            <!-- Social -->
+            <ul class="list-unstyled list-inline list-social mb-6 mb-md-0">
+              <li class="list-inline-item list-social-item me-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="assets/img/icons/social/instagram.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item me-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="assets/img/icons/social/twitter.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+    
+            <!-- Heading -->
+            <h6 class="fw-bold text-uppercase text-gray-700">
+              Security
+            </h6>
+    
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Login Detection
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Best Practices
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+    
+            <!-- Heading -->
+            <h6 class="fw-bold text-uppercase text-gray-700">
+              Company
+            </h6>
+    
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="about.html" class="text-reset">
+                  About
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="contact.html" class="text-reset">
+                  Contact
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="pricing.html" class="text-reset">
+                  Pricing
+                </a>
+              </li>
+              <li>
+                <a href="how-it-works.html" class="text-reset">
+                  How It Works
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+          <div class="col-6 col-md-4 offset-md-4 col-lg-2 offset-lg-0">
+    
+            <!-- Heading -->
+            <h6 class="fw-bold text-uppercase text-gray-700">
+              Resources
+            </h6>
+    
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-3">
+                <a href="documentation.html" class="text-reset">
+                  Documentation
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="faqs.html" class="text-reset">
+                  FAQs
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+    
+            <!-- Heading -->
+            <h6 class="fw-bold text-uppercase text-gray-700">
+              Legal
+            </h6>
+    
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-3">
+                <a href="terms-of-service.html" class="text-reset">
+                  Terms of Use
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="privacy-policy.html" class="text-reset">
+                  Privacy Policy
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="gdpr-policy.html" class="text-reset">
+                  GDPR
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src='assets/js/prism.js'></script>
+    <script src="assets/js/vendor.bundle.js"></script>
+    <script src="assets/js/theme.bundle.js"></script>
+
+  </body>
+</html>

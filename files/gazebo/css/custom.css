@@ -1,0 +1,161 @@
+html,
+body {
+  background-color: #fff;
+  font-family: 'Karla', sans-serif;
+  min-height:100%;
+  height:100%;
+}
+
+section{
+  overflow:hidden;
+  min-height:100%;
+}
+
+.container{
+  max-width:860px;
+  margin-top:5%;
+}
+
+.logo{
+  width:200px;
+  margin-bottom:10px;
+}
+
+.lead {
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    color:#333333;
+    margin-top:10px;
+    margin-bottom:20px;
+    max-width:390px;
+}
+
+.btn-primary{
+    background-color: #0D8575;
+    border-color: #0D8575;
+    padding:12px 40px;
+}
+
+.btn-primary:hover{
+   background-color: #2e625b;
+    border-color: #2e625b;
+}
+
+.device-frame{
+    width: 295px;
+    overflow: hidden;
+    border: 8px solid #f8f8f8;
+    border-radius: 5px;
+    margin-right: 1rem;
+    background-color: #fff;
+    box-shadow: 0px 15px 20px -10px rgba(0,0,0,0.15), 0px 1px 4px -2px rgba(0,0,0,0.4);
+    text-align: center;
+    z-index:2;
+    position:relative;
+    animation-name: rotateDevice;
+    animation-duration: 1.8s;
+    animation-timing-function: cubic-bezier(0.22, 1, 0.18, 1);
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+    opacity:1;
+    transform: rotate(10deg);
+    top:30px;
+    left:40px;
+
+}
+
+@keyframes rotateDevice {
+    0% {
+          transform: rotate(4deg);
+          opacity:0;
+          top:50px;
+    }
+    100% {
+          transform: rotate(10deg);
+          opacity:1;
+          top:20px;
+    }
+}
+
+.blob {
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    width: 720px;
+    left: -170px;
+}
+
+.download-btn{
+  width:160px;
+  margin-bottom:10px;
+  float:left;
+  margin-right:20px;
+}
+
+.feature-heading{
+  margin-top:130px;
+}
+
+.form-control{
+  height:calc(1.5em + .75rem + 12px);
+  border:2px solid #cacaca;
+}
+
+form .form-group{
+  width:340px;
+}
+
+
+@media (max-width: 767px) {
+
+  .feature-heading{
+    text-align:center;
+    margin-top:40px;
+  }
+
+  .logo{
+    width:150px;
+  }
+
+  .lead{
+    margin:20px auto;
+    text-align:center;
+  }
+
+  .device-frame{
+    margin:100px auto;
+    left:-40px;
+  }
+
+  .blob {
+    display:none;
+  }
+
+  .download-btn {
+      width: 160px;
+      display: block;
+      float:none;
+      margin: 20px auto 0px auto;
+  }
+
+  .form-group{
+    margin:auto;
+  }
+
+  .btn-primary{
+    margin:auto;
+    width:200px;
+    display:block;
+    margin-top:20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: .5rem;
+    margin: auto;
+    text-align: center;
+  }
+
+}

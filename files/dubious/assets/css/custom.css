@@ -1,0 +1,252 @@
+/* Main Nav Active State */
+.nav-active{
+    cursor:default;
+    color: #335eea !important;
+}
+
+/* How It Works Icon */
+.icon .hiw-icon{
+    width:9rem;
+    height:9rem;
+    position:relative;
+    top:15px;
+}
+
+/* Full Width Button */
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+/* Drop Font Size for Pricing Card and Form Labels */
+.card-body p, .form-label{
+    font-size:1.0025rem
+}
+
+/* Center Fix */
+.bd-1{
+    position:relative;
+    top:1px;
+}
+
+/* Email Example iFrame Modal */
+
+#email-example iframe{
+    overflow:hidden;
+}
+
+#email-example .modal-body{
+    padding:0;
+    height:900px;
+    line-height:0;
+}
+
+#email-example .modal-dialog {
+    max-width: 800px;
+}
+
+#email-example .modal-header{
+    padding:1.3rem 2.5rem;
+    background:#f5f8fa;
+    border-bottom:1px solid #e6e6e6;
+}
+
+#email-example hr{
+    border: none;
+    height: 20px;
+    width: 100%;
+    height: 50px;
+    margin-top: 0;
+    box-shadow: 0 14px 17px -20px rgb(51 51 51 / 0.4);
+    margin: -50px auto 10px;
+    position: absolute;
+    top: 97px;
+    left: 0;
+    z-index: 2;
+    background: none;
+}
+
+/* Add Credit Card Sidebar Card */
+.add-cc p{
+    font-size:13px;
+}
+
+/* Dashed Borders */
+.border-dashed{
+    border:2px dashed #C5D3E6;
+}
+
+.border-dashed:hover{
+    border:2px dashed #aebcce;
+}
+
+/* Logo/Brand Color Upload States */
+.circle-upload-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.icon-circle:hover{
+    text-decoration:none;
+}
+
+.icon-circle:hover .fe{
+    color:#aebcce !important;
+}
+
+.avatar-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.circle-upload-container .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .3s ease;
+    border-radius:50%;
+    cursor:pointer;
+}
+  
+.circle-upload-container:hover .overlay {
+    opacity: 1;
+    text-decoration:none;
+}
+
+/* Pickr Overrides */
+.pickr .pcr-button:after, .pickr .pcr-button:before{
+    border-radius: .35em;
+}
+
+.pcr-app button.pcr-active, .pcr-app button:focus, .pcr-app input.pcr-active, .pcr-app input:focus, .pickr button.pcr-active, .pickr button:focus, .pickr input.pcr-active, .pickr input:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.pickr .pcr-button {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+/* Sensitivity Threshold Selects */
+.sensitivty-container{
+    position:relative;
+}
+
+.sensitivty-container hr{
+    position:absolute;
+    border-top: 1px solid red;
+}
+
+/* Login Detection Sensitivity */
+
+.interval{
+    display: block;
+    height: 28px;
+    width: 28px;
+    line-height: 28px;
+    font-size: 1rem;
+    color: #ffffff;
+    border-radius: 50%;
+    margin:5px auto 5px auto;
+}
+
+.interval-unselected{
+    border: 2px solid #d7d7d7;
+}
+
+.interval-unselected:hover{
+    text-decoration:none;
+    border: 2px solid #aeaeae;
+}
+
+.interval-selected{
+    background:#44B996;
+    border: 2px solid #44B996;
+}
+
+.interval-selected:hover{
+    text-decoration:none;
+}
+
+/* Override form outline color */
+
+/* .form-control{
+    border:1px solid #dadfe4;
+} */
+
+/* Password Strength Meter */
+#pswmeter {
+    height: 6px;
+    background-color: #eee;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0px;
+}
+
+/* Prism.js CSS Overides */
+code[class*="language-"],
+pre[class*="language-"] {
+    white-space: normal !important;
+    word-break: break-word !important;
+}
+
+div.code-toolbar > .toolbar {
+    right: .5em;
+}
+
+/* Number Circle (For steps in admin setup) */
+.number-circle {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.1;
+    font-weight: 700;
+    float:left;
+    margin-right:20px;
+}
+
+/* EasyMDE Overrides */
+.EasyMDEContainer .CodeMirror{
+    border: 1px solid #f1f4f8;
+}
+
+.editor-toolbar{
+    border: 1px solid #f1f4f8;
+    border-bottom: 0;
+}
+
+
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .nav-active{
+        border-bottom: 2px solid #335eea;
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
+

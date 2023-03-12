@@ -1,0 +1,43 @@
+h1{
+    font-size:25px;
+}
+
+.container{
+    margin:20px auto 200px auto;
+}
+
+.updated-heading{
+    font-weight:300;
+    font-size:22px;
+}
+
+.board-name{
+    font-weight:bold;
+    font-size:36px;
+}
+
+table.dataTable>thead .sorting:before, table.dataTable>thead .sorting_asc:before, table.dataTable>thead .sorting_desc:before, table.dataTable>thead .sorting_asc_disabled:before, table.dataTable>thead .sorting_desc_disabled:before{
+    right:1.4em;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td.dtr-control, table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th.dtr-control{
+    padding-left:40px;
+}
+
+.dataTables_wrapper .dataTables_filter input{
+    margin-left:10px;
+}
+
+.dataTables_wrapper .dataTables_length select{
+    margin:0 5px;
+}
+
+
+
+@media screen and (max-width: 640px){
+label{
+    float: left;
+    text-align: left;
+    clear: both;
+}
+}

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="../assets/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../assets/css/libs.bundle.css" />
+    <link rel="stylesheet" href="../assets/css/theme.bundle.css" />
+    <title>Dubious - Login</title>
+  </head>
+  <body>
+
+    <!-- CONTENT -->
+    <section class="section-border border-primary">
+      <div class="container d-flex flex-column">
+         
+        <!-- Brand -->
+         <a class="navbar-brand" href="index.html">
+            <img src="../assets/img/brand.svg" class="navbar-brand-img mx-auto d-block mt-4" alt="...">
+         </a>
+
+        <div class="row align-items-center justify-content-center gx-0">
+          <div class="col-12 col-md-5 col-lg-4 py-8 py-md-11">
+
+            <!-- Heading -->
+            <h1 class="mb-0 fw-bold text-center">
+              Log in
+            </h1>
+
+            <!-- Text -->
+            <p class="mb-6 text-center text-muted">
+              Your Dubious account
+            </p>
+
+            <!-- Form -->
+            <form class="mb-6 needs-validation" novalidate>
+
+              <!-- Email -->
+              <div class="form-group">
+                <label class="form-label" for="email">
+                  Email Address
+                </label>
+                <input type="email" class="form-control" id="email" placeholder="you@email.com" required>
+                <div class="invalid-feedback">
+                  Please enter a valid email
+                </div>
+              </div>
+
+              <!-- Password -->
+              <div class="form-group mb-5">
+                <label class="form-label" for="password">
+                  Password
+                </label>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+                <div class="invalid-feedback">
+                  Your password is incorrect
+                </div>
+              </div>
+
+              <!-- Submit -->
+              <button class="btn w-100 btn-primary" type="submit">
+                Sign in
+              </button>
+
+            </form>
+
+            <!-- Text -->
+            <p class="mb-0 fs-sm text-center text-muted">
+              <a href="password-reset.html">Forgot your password?</a>
+            </p>
+
+            <!-- Text -->
+            <p class="mb-0 fs-sm text-center text-muted">
+              Don't have an account yet? <a href="signup.html">Sign up</a>.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- JAVASCRIPT -->
+    <script src="../assets/js/vendor.bundle.js"></script>
+    <script src="../assets/js/theme.bundle.js"></script>
+    
+    <!-- Bootstrap 5 Custom Form Validation -->
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function () {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms)
+          .forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+              }
+
+              form.classList.add('was-validated')
+            }, false)
+          })
+      })()
+    </script>
+
+  </body>
+</html>

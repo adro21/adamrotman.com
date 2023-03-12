@@ -1,0 +1,2 @@
+Disallow: /files/
+Disallow: /docs/

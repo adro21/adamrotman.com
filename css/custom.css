@@ -1,0 +1,379 @@
+@font-face {
+    font-family: 'Northwell';
+    src: url('../fonts/Northwell.eot');
+    src: url('../fonts/Northwell.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Northwell.woff2') format('woff2'),
+        url('../fonts/Northwell.woff') format('woff'),
+        url('../fonts/Northwell.ttf') format('truetype'),
+        url('../fonts/Northwell.svg#Northwell') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*body{
+  background-image:url(https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f67b5b46018e6eb129f6c1f7c349f005&auto=format&fit=crop&w=1266&q=80);
+  background-size:cover;
+  background-attachment:fixed;
+  background-position:center right;
+}*/
+
+body{
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.container {
+  width: auto;
+  max-width: 1170px;
+  padding: 0 15px;
+}
+
+.container-main{
+  height:65vh;
+}
+
+
+.navbar{
+  padding:2rem 0rem;
+}
+
+#small-nav{
+  margin-top:20px;
+}
+
+
+.navbar-expand-sm .navbar-nav .nav-link{
+  font-family: 'Karla', sans-serif;
+  font-weight:400;
+  color:#999;
+  font-size:16px;
+  text-transform: uppercase;
+  padding-right: 3rem; 
+  padding-left: 0rem;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link:hover{
+  color:#3F90F0;
+}
+
+.logo{
+  color:#999;
+  font-family: 'Northwell', sans-serif;
+  font-size:52px;
+  line-height:0.79;
+  font-weight:100;
+  padding-top:40px;
+  display:block;
+}
+
+.navbar-light .navbar-brand{
+  color:#999;
+  font-size:40px;
+}
+
+.subtext{
+  color:#84c0f1;
+  font-size:12px;
+  text-transform: uppercase;
+  margin-bottom:0;
+}
+
+.additional {
+    color: #56d67e;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.project-info{
+  padding-right:140px;
+
+}
+
+.project-info h2{
+  font-family: 'Karla', sans-serif;
+  font-weight:700;
+  font-size:48px;
+  letter-spacing:-4px;
+  line-height:1.1;
+  margin-bottom:10px;
+}
+
+.project-info a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: -0.3px;
+  line-height: 0.95;
+  color: #bfc5ca;
+}
+
+.project-info a:hover{
+  color:#84c0f1;
+  text-decoration:none;
+}
+
+
+.project{
+  margin-bottom:50px;
+  overflow-x:hidden;
+}
+
+.project-image{
+  max-width:1480px;
+}
+
+.project-stencil .project-image{
+  max-width:1140px;
+}
+
+
+
+/*.project-image-wave{
+  max-width:1480px;
+}
+
+.project-image-stencil{
+  max-width:1160px;
+}*/
+
+.intro-wrap{
+    opacity:0;
+    animation: fadeIn 1.2s 200ms 1 normal ease-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.intro h1{
+  font-family: 'Karla', sans-serif;
+  font-weight:700;
+  font-size:62px;
+  letter-spacing:-4.5px;
+  line-height:0.85;
+}
+
+.intro h2{
+  font-family: 'Lato', sans-serif;
+  font-weight:400;
+  font-size:24px;
+  letter-spacing:-0.3px;
+  line-height:1.1;
+  color:#bfc5ca;
+  margin-top:20px;
+}
+
+.and{
+  font-family: 'Playfair Display', serif;
+  font-weight:300;
+  font-size:57px;
+  color:#84c0f1;
+}
+
+
+.box1 {
+    min-width: 100px;
+    height: 100px;
+    margin: 0 auto 0 auto;
+}
+
+.case-study .bg-wrap{
+  background:#1b8ceb;
+}
+
+.case-study .intro h1{
+  font-family: 'Karla', sans-serif;
+  font-weight:700;
+  font-size:62px;
+  letter-spacing:-4.5px;
+  line-height:0.85;
+  color:#fff;
+}
+
+.case-study .intro a{
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+  font-size:24px;
+  letter-spacing:-0.3px;
+  line-height:1.1;
+  color:#ccc;
+  margin-top:20px;
+}
+
+
+.blue{
+  background: blue;
+}
+
+
+footer{
+  height:100vh;
+  width:100vw;
+  background:#363b4c;
+  margin-top:200px;
+  display:table-cell;
+  vertical-align:middle;
+}
+
+footer h1{
+  font-family: 'Karla', sans-serif;
+  font-weight:700;
+  font-size:62px;
+  letter-spacing:-4.5px;
+  line-height:0.85;
+  text-align:center;
+  color:#fff;
+}
+
+
+.footer-message{
+  font-family: 'Lato', sans-serif;
+  font-size:26px;
+  color:#ccc;
+  font-weight:300;
+  margin: auto;
+  text-align:center;
+  padding-top:40px;
+  max-width:80%;
+}
+
+
+footer .btn-primary{
+  font-family: 'Lato', sans-serif;
+  font-size:18px;
+  background:#121521;
+  border-color:#121521;
+  padding:15px 40px;
+  color:#eaeaea;
+  margin:40px auto;
+  display:inline-block;
+  text-align:center;
+}
+
+footer .btn-primary:hover{
+  background:#76b3ef;
+  border-color:#76b3ef;
+}
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+  .project-info{
+    padding-right:0;
+  }
+
+  .project-image{
+    max-width:700px;
+    padding-left:20px;
+  }
+
+  .project-stencil .project-image{
+    max-width:500px;
+  }
+
+  .project{
+    margin-bottom:150px;
+  }
+
+  .container-main{
+    margin-bottom:150px;
+  }
+
+  .intro h1{
+    font-size:46px;
+  }
+
+  .project-info h2{
+    font-size:38px;
+  }
+
+  .logo{
+    font-size:42px;
+  }
+
+  footer h1{
+    font-size:32px;
+    letter-spacing:-1.5px;
+  }
+
+  footer .footer-message{
+    font-size:20px;
+    padding-top:10px;
+    line-height: 1.4;
+    max-width:95%;
+  }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+
+/* Smaller Screens */
+@media (max-width: 1199px) {  
+  .container{
+     padding:0px 30px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+  .project-image{
+    max-width: calc(1480px - 20%);
+  }
+
+  .project{
+    margin-bottom:200px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1921px) {  
+  .project-image{
+    max-width: 2040px;
+  }
+
+  .pi-shrink{
+    max-width: calc(2040px - 46%) !important;
+  }
+
+  .project{
+    margin-bottom:250px;
+  }
+}
+
+/*.navbar-brand{
+  color:#333;
+  font-family: 'Raleway', sans-serif;
+  font-size:40px;
+  line-height:0.79;
+  font-weight:700;
+  text-transform: uppercase;
+  letter-spacing:-1px;
+}
+
+.navbar-brand span{
+  display:block;
+}
+
+.navbar-brand span.first-name{
+  font-weight:100;
+  font-size:58.7px;
+}
+
+.navbar-toggler{
+  border:1px solid #ccc;
+}*/
