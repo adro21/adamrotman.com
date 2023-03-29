@@ -1,2 +1,0 @@
-# rootswap-home
-Rootswap Home
