@@ -1,0 +1,363 @@
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #E00576;
+}
+
+.btn-check:active+.btn-info, .btn-check:checked+.btn-info, .btn-info.active, .btn-info:active, .show>.btn-info.dropdown-toggle {
+    color: #fff;
+    background-color: #E00576;
+    border-color: #E00576;
+}
+
+.btn-check:focus+.btn-info, .btn-info:focus, .btn-info:hover {
+    color: #fff;
+    background-color: #E00576;
+    border-color: #E00576;
+}
+
+.root {
+    width: 530px;
+    left: 50%;
+    right: 50%;
+    position: relative;
+    margin-left: -265px;
+    top: -97px;
+    opacity: 0.2;
+}
+
+.root-cta {
+    width: 275px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    margin-left: -137px;
+}
+
+.root-purple{
+    width: 275px;
+}
+
+.root-container{
+    width:275px;
+    overflow:hidden;
+    height:0px;
+    position: absolute;
+    z-index:1;
+    left: 50%;
+    right: 50%;
+    margin-left: -137px;
+}
+
+.bg-pink{
+     background-color:#fbf4fb;
+}
+
+.bg-root{
+    background-color:#E00576;
+}
+
+.bg-gradient-root{
+    background-image: conic-gradient(from 52deg at 50% 50%,#E00576 0deg,#31eec1 33deg,#E00576 222deg,#d6723b 264deg,#d5498c 295deg,#E00576 1turn);
+}
+
+.display-1{
+    line-height:1.08;
+}
+
+.display-2{
+    line-height:1.08;
+}
+
+.border-info {
+    border-color: #E00576!important;
+}
+
+.btn-info{
+    color: #fff;
+    background-color: #E00576;
+    border-color: #E00576;
+    box-shadow: none;
+}
+
+.btn-info:hover{
+    color: #fff;
+    background-color: #cf036c;
+    border-color: #cf036c;
+    box-shadow: none;
+}
+
+
+.text-info {
+    color: #961975!important;
+}
+
+.bottom-cta{
+    padding-bottom:350px !important;
+}
+
+.navbar-brand-img {
+    max-height: 1.9rem;
+    width: auto;
+    margin-top:-7px;
+}
+
+/* Form */
+
+.form-control{
+    border-color:#d4d4d4;
+}
+.category-group{
+    margin:20px;
+}
+
+.btn-check-custom{
+    --bs-btn-padding-y: .35rem;
+    --bs-btn-padding-x: .9rem;
+    --bs-btn-font-size: .95rem;
+    border-radius: 50px;
+}
+
+.btn-check+.btn:hover{
+    border-color:#000000;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+    background-color: #ffdddd;
+  }
+  
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+  }
+
+  #prevBtn {
+    background-color: transparent;
+    color: #325EE9;
+   }
+
+   #nextBtn1{
+    display:none;
+   }
+  
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;  
+    border-radius: 50%;
+    /* display: inline-block; */
+    /* opacity: 0.5; */
+    display:none;
+  }
+  
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #04AA6D;
+  }
+
+
+.rut-huge{
+    position: absolute;
+    width: 1030px;
+    background-size:1030px;
+    min-height:2000px;
+    opacity: 0.03;
+    top: 60px;
+    left: -560px;
+}
+
+.rut-huge-left{
+    position: absolute;
+    width: 1030px;
+    background-size:1030px;
+    min-height:2000px;
+    opacity: 0.03;
+    top: 60px;
+    left: -560px;
+}
+
+.rut {
+    background-image: url(../img/icons/rutabaga.svg);
+    background-repeat: no-repeat;
+    /* opacity: 0.6; */
+    /* opacity: 0.035; */
+    opacity: 0.028; 
+}
+
+.contract {
+    background-image: url(../img/icons/contract.svg);
+    background-repeat: no-repeat;
+    /* opacity: 0.6; */
+    /* opacity: 0.035; */
+    opacity: 0.028; 
+}
+
+.clipboard {
+    background-image: url(../img/icons/clipboard.svg);
+    background-repeat: no-repeat;
+    /* opacity: 0.6; */
+    /* opacity: 0.035; */
+    opacity: 0.028; 
+}
+
+.coffee {
+    background-image: url(../img/icons/coffee.svg);
+    background-repeat: no-repeat;
+    /* opacity: 0.6; */
+    /* opacity: 0.035; */
+    opacity: 0.028; 
+}
+
+.lamp {
+    background-image: url(../img/icons/lamp.svg);
+    background-repeat: no-repeat;
+    /* opacity: 0.6; */
+    /* opacity: 0.035; */
+    opacity: 0.028; 
+}
+
+.stationary {
+    background-image: url(../img/icons/stationary.svg);
+    background-repeat: no-repeat;
+    /* opacity: 0.6; */
+    /* opacity: 0.035; */
+    opacity: 0.028; 
+}
+
+.headphones {
+    background-image: url(../img/icons/headphones.svg);
+    background-repeat: no-repeat;
+    /* opacity: 0.6; */
+    /* opacity: 0.035; */
+    opacity: 0.028; 
+}
+
+.bike {
+    background-image: url(../img/icons/bike.svg);
+    background-repeat: no-repeat;
+    /* opacity: 0.6; */
+    /* opacity: 0.035; */
+    opacity: 0.028; 
+}
+
+.laptop {
+    background-image: url(../img/icons/laptop.svg);
+    background-repeat: no-repeat;
+    /* opacity: 0.6; */
+    /* opacity: 0.035; */
+    opacity: 0.028; 
+}
+
+.beachball {
+    background-image: url(../img/icons/beachball.svg);
+    background-repeat: no-repeat;
+    /* opacity: 0.6; */
+    /* opacity: 0.035; */
+    opacity: 0.028; 
+}
+
+.rut-1 {
+    position: absolute;
+    width: 210px;
+    background-size:210px;
+    min-height: 1000px;
+    top: 330px;
+    left: 670px;
+    transform: rotate(72deg);
+}
+
+.rut-2 {
+    position: absolute;
+    width: 140px;
+    background-size: 140px;
+    min-height: 1000px;
+    top: -70px;
+    left: -250px;
+    transform: rotate(8deg);
+}
+
+.rut-3 {
+    position: absolute;
+    width: 300px;
+    background-size: 300px;
+    min-height: 1000px;
+    top: -200px;
+    left: 680px;
+    transform: rotate(26deg);
+}
+
+.rut-4 {
+    position: absolute;
+    width: 150px;
+    background-size: 150px;
+    min-height: 1000px;
+    top: 154px;
+    left: 970px;
+    transform: rotate(-23deg);
+}
+
+.rut-5 {
+    position: absolute;
+    width: 400px;
+    background-size:400px;
+    min-height: 1000px;
+    top: 430px;
+    left: -360px;
+    transform: rotate(7deg);
+}
+
+.rut-6 {
+    position: absolute;
+    width: 350px;
+    background-size: 350px;
+    min-height: 1000px;
+    top: -290px;
+    left: 250px;
+    transform: rotate(-20deg);
+}
+
+.rut-7 {
+    position: absolute;
+    width: 567px;
+    background-size: 760px;
+    min-height: 1000px;
+    top: 279px;
+    left: 573px;
+    transform: rotate(51deg);
+}
+
+.rut-8 {
+    position: absolute;
+    width: 200px;
+    background-size: 200px;
+    min-height: 1000px;
+    top: 0px;
+    left: -340px;
+    transform: rotate(50deg);
+}
+
+.rut-9 {
+    position: absolute;
+    width: 400px;
+    background-size: 400px;
+    min-height: 1000px;
+    top: -210px;
+    left: 960px;
+    transform: rotate(61deg);
+}
+
+.rut-10 {
+    position: absolute;
+    width: 300px;
+    background-size: 300px;
+    min-height: 1000px;
+    top: -120px;
+    left: -820px;
+    transform: rotate(61deg);
+}
